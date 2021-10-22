@@ -1,3 +1,4 @@
+// this is the class which creates node
 class Node{
     int key;
     Node left;
