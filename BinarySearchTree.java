@@ -42,13 +42,13 @@ class BST{
         InOrderTraversal(root.right);
     }
 }
-
+//BST Main Function Class
 public class BinarySearchTree{
     public static void main(String[] args) {
         BST bst = new BST();
 
-        Node root = null;
-
+        Node root = null;       
+        System.out.println("Hello World");
         root = bst.insert(root, 3);
         root = bst.insert(root, 2);
         root = bst.insert(root, 1);
